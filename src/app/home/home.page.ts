@@ -38,24 +38,24 @@ export class HomePage{
       this.resultado = resposta;
       console.log(this.resultado);
       if(this.resultado<20){
-        this.msg = 'Não prossiga !!!';
-        this.img = 'menos20.jpg';
+        this.msg = 'desista de insistir';
+        this.img = '20.png';
       }
       else if(this.resultado<40){
-        this.msg = 'Ache outra cremosa !';
-        this.img = '40.jpg';
+        this.msg = 'na proxima parça';
+        this.img = '40.png';
       }
       else if(this.resultado<60){
-        this.msg = 'Não vai se apaixonar !';
-        this.img = '60.jpg';
+        this.msg = 'uffa! é o destino';
+        this.img = '60.png';
       }
       else if(this.resultado<80){
-        this.msg = ' Pendente !';
-        this.img = '80.jpg';
+        this.msg = 'esqueça! é melhor beber';
+        this.img = '80.png';
       }
       else {
-        this.msg = 'Chega junto !!!';
-        this.img = '100.jpg';
+        this.msg = 'você me completa baby!!';
+        this.img = '100.png';
       }
 
     }
